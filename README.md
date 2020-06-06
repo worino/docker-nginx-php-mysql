@@ -74,6 +74,7 @@ sudo apt install build-essential
 * [Composer](https://hub.docker.com/_/composer/)
 * [PHPMyAdmin](https://hub.docker.com/r/phpmyadmin/phpmyadmin/)
 * [Generate Certificate](https://hub.docker.com/r/jacoelho/generate-certificate/)
+* [dozzle] (https://github.com/amir20/dozzle)
 
 You should be careful when installing third party web servers such as MySQL or Nginx.
 
@@ -85,6 +86,7 @@ This project use the following ports :
 | PHPMyAdmin | 8080 |
 | Nginx      | 8000 |
 | Nginx SSL  | 3000 |
+| Dozzle     | 9999 |
 
 ___
 
@@ -93,7 +95,7 @@ ___
 To install [Git](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git), download it and install following the instructions :
 
 ```sh
-git clone https://github.com/nanoninja/docker-nginx-php-mysql.git
+git clone https://github.com/worino/docker-nginx-php-mysql.git
 ```
 
 Go to the project directory :
