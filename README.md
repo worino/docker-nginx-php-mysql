@@ -127,7 +127,7 @@ cd personal-development-envirionment
     ├── app
     │   ├── For static files.
     └── public
-        └── for non-static files.
+        └── For non-static files.
 ```
 
 ___
