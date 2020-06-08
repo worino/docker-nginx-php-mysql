@@ -95,13 +95,13 @@ ___
 To install [Git](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git), download it and install following the instructions :
 
 ```sh
-git clone https://github.com/worino/docker-nginx-php-mysql.git
+git clone https://github.com/worino/personal-development-envirionment.git
 ```
 
 Go to the project directory :
 
 ```sh
-cd docker-nginx-php-mysql
+cd personal-development-envirionment
 ```
 
 ### Project tree
@@ -125,15 +125,9 @@ cd docker-nginx-php-mysql
 │   └── ssl
 └── web
     ├── app
-    │   ├── composer.json.dist
-    │   ├── phpunit.xml.dist
-    │   ├── src
-    │   │   └── Foo.php
-    │   └── test
-    │       ├── FooTest.php
-    │       └── bootstrap.php
+    │   ├── For static files.
     └── public
-        └── index.php
+        └── for non-static files.
 ```
 
 ___
@@ -211,9 +205,9 @@ ___
 
 3. Open your favorite browser :
 
-    * [http://localhost:8000](http://localhost:8000/)
-    * [https://localhost:3000](https://localhost:3000/) ([HTTPS](#configure-nginx-with-ssl-certificates) not configured by default)
-    * [http://localhost:8080](http://localhost:8080/) PHPMyAdmin (username: dev, password: dev)
+    * [http://localhost](http://localhost/)
+    * [https://localhost](https://localhost/) ([HTTPS](#configure-nginx-with-ssl-certificates) not configured by default)
+    * [http://localhost:8080](http://localhost:8080/) PHPMyAdmin (username: root, password: root)
 
 4. Stop and clear services
 
