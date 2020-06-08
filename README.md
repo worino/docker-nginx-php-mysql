@@ -80,13 +80,13 @@ You should be careful when installing third party web servers such as MySQL or N
 
 This project use the following ports :
 
-| Server     | Port |
-|------------|------|
-| MySQL      | 8989 |
-| PHPMyAdmin | 8080 |
-| Nginx      | 8000 |
-| Nginx SSL  | 3000 |
-| Dozzle     | 9999 |
+| Server     | Port | External Port |
+|------------|------| ------------- |
+| MySQL      | 8989 | 3306          |
+| PHPMyAdmin | 8080 | 8080          |
+| Nginx      | 8000 | 80            |
+| Nginx SSL  | 3000 | 433           |
+| Dozzle     | 9999 | 9999          |
 
 ___
 
